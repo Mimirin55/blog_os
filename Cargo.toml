@@ -10,10 +10,16 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
-bootloader = "0.9"
+bootloader = "0.9.33"
+spin = "0.9.8"
 volatile = "0.2.6"
-spin = "0.5.2"
+x86_64 = "0.14.7"
 
 [dependencies.lazy_static]
-version = "1.0"
+version = "1.4.0"
+default-features = false
 features = ["spin_no_std"]
+
+[[test]]
+name = "stack_overflow"
+harness = false
