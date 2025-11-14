@@ -1,1 +1,1 @@
-/Users/satoumidori/blog_os/target/x86_64-blog_os/debug/blog_os: /Users/satoumidori/blog_os/src/main.rs /Users/satoumidori/blog_os/src/vga_buffer.rs
+/Users/satoumidori/blog_os/target/x86_64-blog_os/debug/blog_os: /Users/satoumidori/blog_os/src/gdt.rs /Users/satoumidori/blog_os/src/interrupts.rs /Users/satoumidori/blog_os/src/lib.rs /Users/satoumidori/blog_os/src/main.rs /Users/satoumidori/blog_os/src/vga_buffer.rs
